@@ -12,17 +12,15 @@ function slideShow(){
 }
 slideShow();
 
-let cores = ['#e6e6e6', '#aeaeae', '#949494'];
-let contador = 0;
-function coresFundos(){
-    document.getElementById("color").style.backgroundColor = cores[contador];
-    contador++;
-    if (contador == cores.length){
-        contador = 0;
-    }
-    setTimeout('coresFundos()', time);
-}
-coresFundos()
+document.addEventListener("DOMContentLoaded", function() {
+    const botaoTrocarCor = document.getElementById("corBtn");
+    const body = document.body;
+
+    botaoTrocarCor.addEventListener("click", function() {
+      const cores = '#' + Math.floor(Math.random()*16777215).toString(16);
+      body.style.backgroundColor = cores;
+    });
+ });
 
 function Login(){
     let user = document.getElementById("idUser").value;

@@ -39,6 +39,7 @@ header {
 }
 
 a{
+    height: 27px;
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
@@ -47,7 +48,9 @@ a{
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-
+a:hover{
+    color:#ccc;
+}
 .form-container {
     margin: 0 auto;
     max-width: 400px;
@@ -84,4 +87,13 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+#corBtn{
+    width: 140px;
+    height: 47px;
+    color: black;
+    background-color: white;
+
+    
 }
