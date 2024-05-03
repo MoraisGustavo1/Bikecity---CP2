@@ -11,8 +11,9 @@ Este é um projeto desenvolvido para a disciplina de Web Development, com o obje
 # Funcionalidades
 
 - Pagina inicial com informações sobre o site e um slideshow com bicicletas.
+- Botão interativo que muda a cor do fundo da página
 - Pagina de login para acessar o quiz.
-- Pagina de contato(fictício).
+- Pagina de contato (fictício).
 - Quiz interativo.
 
 # Como acessar
